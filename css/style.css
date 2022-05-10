@@ -1,0 +1,42 @@
+body {
+  margin-top: 90px; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  background: #fff;
+  opacity: 0.8; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 20px; }
+    .navbar .nav-item .nav-link {
+      color: #252525; }
+    .navbar .nav-item .nav-link:hover {
+      color: #3292a6; }
+  .navbar .nav-item:last-child {
+    padding-right: 0; }
+
+#showcase {
+  background-image: url("../img/mountains.jpg");
+  background-size: cover; }
+  #showcase .primary-overlay {
+    background: rgba(110, 177, 185, 0.7); }
+
+#authors .info-authors {
+  margin-bottom: 45px;
+  margin-top: -100px; }
+
+#authors img {
+  margin-top: -60px; }
+
+#authors .fa {
+  font-size: 25px; }
+
+#authors .card:hover {
+  background: #3292a6;
+  color: #fff; }
+  #authors .card:hover .fa {
+    color: #fff; }
+
+@media (max-width: 576px) {
+  #showcase h1 {
+    font-size: 3rem; } }
